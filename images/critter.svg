@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (optional, remove if transparent is needed) -->
+  <rect width="200" height="200" fill="white"/>
+
+  <!-- Body -->
+  <circle cx="100" cy="110" r="60" fill="#F2F2F2" stroke="black" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="90" r="22" fill="white" stroke="black" stroke-width="3"/>
+  <circle cx="125" cy="90" r="22" fill="white" stroke="black" stroke-width="3"/>
+
+  <!-- Pupils -->
+  <circle cx="80" cy="95" r="8" fill="black"/>
+  <circle cx="130" cy="95" r="8" fill="black"/>
+
+  <!-- Highlights -->
+  <circle cx="77" cy="90" r="3" fill="white"/>
+  <circle cx="127" cy="90" r="3" fill="white"/>
+
+  <!-- Mouth -->
+  <path d="M85 125 Q100 135 115 125" 
+        fill="none" 
+        stroke="black" 
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Tiny Arms -->
+  <line x1="35" y1="115" x2="15" y2="130" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="165" y1="115" x2="185" y2="130" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+</svg>
